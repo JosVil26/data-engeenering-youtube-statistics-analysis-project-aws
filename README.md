@@ -31,6 +31,9 @@ This Kaggle dataset includes several months (and counting) of data on daily tren
 2. [Glue Job for process CSV files](csv_to_parquet.py)
 3. [Glue ETL Jor for Analytic](youtube-project-parquet-analytics-version.py)
 
+## Final Dashboard
+![Dashboard](Dashboard.png)
+
 ## Conclusions
 This project give me some new knowledgement about AWS and present some issues like change the data type of a column created by the Glue crawler, in that sense the crawler has difficults to parse the appropiate data type when the data is an integer for example, I had to do exploratory data analysis to assure the quality of the data, in that sense I discover null values in some important fields of the CSV files which I had to drop. Furthermore I deleted duplicate rows in the job that join the parquet files which storage the data from CSV and JSON files. I think that is possible to use some machine learning algorithms to do sentiment analysis in a variety of forms, Categorising YouTube videos based on their comments and statistics, statistical analysis over time, etc
 
